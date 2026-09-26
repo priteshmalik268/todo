@@ -1,7 +1,7 @@
 import Users from "../schema/users.schema.js";
 import tokenUtils from "../utils/token.utils.js";
 
-const authMiddleware = async (req, res, next) => {
+const authMiddleware = async(req, res, next) => {
     try {
         const authHeader = req.headers.authorization;
 
