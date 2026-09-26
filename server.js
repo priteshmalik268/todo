@@ -3,10 +3,11 @@ import dbConnect from "./config/dbConfig.js";
 import usersRoute from "./routes/users.route.js";
 import tasksRoute from "./routes/tasks.route.js";
 
+
 import * as path from "path";
 const rootPath = process.cwd();
 
-// import dotenv from "dotenv";
+
 
 dotenv.config();
 
